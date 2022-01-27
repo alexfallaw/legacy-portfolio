@@ -119,7 +119,7 @@ footer {
     height: 10rem;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
     justify-content: center;
     transition: padding-right .3s ease-in, background-color .3s ease-out;
 }
@@ -155,7 +155,7 @@ footer {
     height: 10rem;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-end;
     justify-content: center;
     transition: padding-left .3s ease-in, background-color .3s ease-out;
 }

@@ -196,13 +196,18 @@ nav {
     margin-right: .5rem;
 }
 .back {
-    background-color: #cfb682;
+    background-color: #eed29e;
     padding: .75rem 1rem;
     margin: 2rem 5rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-items: center;
+    transition: background-color .3s ease-out;
+}
+.back:hover {
+    background-color: #cfb682;
+    transition: background-color .3s ease-out;
 }
 .back p {
     font-family: "Gentium Book Basic", serif;

@@ -114,19 +114,19 @@ footer {
 }
 .blue {
     background-color: #d7e0ca;
-    padding-right: .25rem;
-    padding-left: 5rem;
+    padding-left: .25rem;
+    padding-right: 5rem;
     height: 10rem;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
-    transition: padding-left .3s ease-in, background-color .3s ease-out;
+    transition: padding-right .3s ease-in, background-color .3s ease-out;
 }
 .blue:hover {
-    padding-left: 10rem;
+    padding-right: 10rem;
     background-color: #C3D5C5;
-    transition: padding-left .3s ease-in, background-color .3s ease-out;
+    transition: padding-right .3s ease-in, background-color .3s ease-out;
 }
 #img1 {
     height: 15rem;
@@ -150,19 +150,19 @@ footer {
 }
 .green {
     background-color: #d7e0b6;
-    padding-left: .25rem;
-    padding-right: 5rem;
+    padding-right: .25rem;
+    padding-left: 5rem;
     height: 10rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    transition: padding-right .3s ease-in, background-color .3s ease-out;
+    transition: padding-left .3s ease-in, background-color .3s ease-out;
 }
 .green:hover {
-    padding-right: 10rem;
+    padding-left: 10rem;
     background-color: #C3D5AA;
-    transition: padding-right .3s ease-in, background-color .3s ease-out;
+    transition: padding-left .3s ease-in, background-color .3s ease-out;
 }
 #img2 {
     height: 15rem;
@@ -191,10 +191,18 @@ nav {
     display: flex;
     flex-direction: row;
 }
+#backarrow {
+    height: 1.25rem;
+    margin-right: .5rem;
+}
 .back {
     background-color: #cfb682;
-    padding: .5rem 1.5rem;
-    margin: 2rem 3rem;
+    padding: .75rem 1rem;
+    margin: 2rem 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
 }
 .back p {
     font-family: "Gentium Book Basic", serif;

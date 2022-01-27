@@ -170,18 +170,15 @@ footer {
 }
 /* gallery */
 #portalgallery header {
-    display: grid;
-    grid-template-rows: 100%;
-    grid-template-columns: 20% 60% 20%;
-    margin: 2.5rem 5rem 1rem 5rem
-    
+    display: flex;
+    flex-direction: column;
 }
 #portalgallery h1 {
-    text-align: center;
-    width: 100%;
+    align-self: center;
     font-family: Oswald, sans-serif;
     font-size: 2rem;
-    margin: 1.5rem 0 5rem;
+    margin-bottom: 0;
+    margin-top: 2.5rem;
 }
 #portalgallery nav {
     align-self: flex-start;
@@ -200,8 +197,8 @@ nav {
 }
 .back {
     background-color: #cfb682;
-    padding: .75rem 1rem .75rem 1rem;
-    margin: 1.5rem 0 5rem;
+    padding: .75rem 1rem;
+    margin: 2rem 5rem;
     display: flex;
     flex-direction: row;
     align-items: center;
